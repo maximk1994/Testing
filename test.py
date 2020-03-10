@@ -18,8 +18,10 @@ if __name__ == '__main__':
 
 	if result:
 		print('pass')
-		os.system("lava-test-case pTest --result pass")
+		#os.system("lava-test-case pTest --result pass")
+		print("pTest --result pass")
 	else:
 		print('fail')
-		os.system("lava-test-case pTest --result fail")
+		#os.system("lava-test-case pTest --result fail")
+		print("pTest --result fail")
 
